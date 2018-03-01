@@ -1,0 +1,14 @@
+@import url('normalize.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/spoqa-han-sans/2.1.1/css/SpoqaHanSans-kr.min.css');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spoqa Han Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+div {
+    box-sizing: border-box;
+}

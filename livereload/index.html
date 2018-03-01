@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+    <title>Simple Web BoilerPlate</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="icon" href="favicon.ico" type="assets/favicon.ico">
+</head>
+
+<body>
+    <div>Hello World!</div>
+    <h1>Makes the World better place!</h1>
+
+    <script>
+        /*global location*/
+        document.write('<script src="https://' + location.host.split(':')[0] +
+            ':8081/livereload.js?snipver=1"></' + 'script>')
+    </script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
